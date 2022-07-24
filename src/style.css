@@ -1,0 +1,43 @@
+.mac-green {
+  margin: 0;
+  padding: 0;
+}
+
+.mac-green {
+  color: #00ca4e;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.avatar-radius {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+}
+
+.text-regular {
+  font-weight: 400;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-bold {
+  font-weight: 700;
+}
+
+.title {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */

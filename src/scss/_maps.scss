@@ -1,0 +1,11 @@
+// ? maybe these are like Enums or key/value pair
+
+// declare
+$font-weights: (
+    'regular': 400,
+    'medium': 500,
+    'bold': 700
+);
+
+// ? how to use
+// map.get($font-weights, 'regular')

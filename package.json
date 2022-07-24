@@ -1,0 +1,11 @@
+{
+  "name": "learn-sass",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "sass --watch src"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.54.0"
+  }
+}

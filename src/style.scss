@@ -1,0 +1,40 @@
+@use 'sass:map';
+@import './scss/variables';
+@import './scss/mixins';
+@import './scss/maps';
+
+%extend-name {
+    margin: 0;
+    padding: 0;
+}
+
+.mac-green {
+    @extend %extend-name;
+    color: $mac-green;
+}
+
+.d-flex {
+    // mixin
+    @include flex();
+}
+
+.avatar {
+    // mixin with parameters
+    @include square(100px);
+}
+
+.avatar-radius {
+    @include square(100px, 4px);
+}
+
+// maps ($font-weights) are like enums or key/value pair
+@each $weight, $value in $font-weights {
+    .text-#{$weight} {
+        font-weight: $value;
+    }
+}
+
+.title {
+    // need to add `@use "sass:map"` in order to use map.get()
+    font-weight: map.get($font-weights, 'bold');
+}
